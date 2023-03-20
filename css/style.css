@@ -3108,7 +3108,7 @@ h6 {
   transition: all 0.4s ease 0s;
 }
 .feature_item img {
-  width: 50%;
+  width: 35%;
   margin-bottom: 35px;
 }
 .feature_item h4 {
@@ -3326,8 +3326,27 @@ h6 {
   }
 }
 .portfolio_box .short_info {
-  margin-top: 30px;
+  margin-top: 15px;
   padding: 0 20px 20px 20px;
+}
+.portfolio_box .short_info {
+  margin-top: 15px;
+  padding: 0 20px 20px 20px;
+}
+.short_info button {
+  background-color: #fff;
+  border: 1px #ddd solid;
+  border-radius: 20px;
+  margin-bottom: 15px;
+  font-size: 12px;
+
+  -webkit-transition: all 0.4s ease 0s;
+  -moz-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+.short_info button:hover {
+  background-color: rgba(77, 87, 222, 0.1);
 }
 @media (max-width: 767px) {
   .portfolio_box .short_info {
