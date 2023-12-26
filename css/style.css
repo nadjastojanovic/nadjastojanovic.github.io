@@ -247,7 +247,7 @@ button:focus {
 }
 
 .car .header_area {
-  background: #ffeedb;
+  background: #f1e3e4;
 }
 .header_area .menu_nav {
   width: 100%;
@@ -368,7 +368,7 @@ button:focus {
 }
 
 .car .header_area.navbar_fixed .main_menu {
-  background: #ffeedb;
+  background: #f1e3e4;
 }
 .header_area.navbar_fixed .main_menu .navbar .nav .nav-item .nav-link {
   line-height: 70px;
@@ -1332,7 +1332,7 @@ h6 {
 /* Start Self-Driving Car Page css */
 
 .car {
-  background: #ffeedb;
+  background: #f1e3e4;
 }
 
 .car #home {
