@@ -22,6 +22,10 @@ body {
   font-weight: 300;
 }
 
+#about {
+  margin-bottom: 0;
+}
+
 #research li {
   margin-bottom: 0.5rem;
 }
