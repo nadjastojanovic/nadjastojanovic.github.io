@@ -152,13 +152,15 @@ function createPublicationElement(publication) {
     if (publication.links.pdf) {
       const pdfLink = document.createElement("a");
       pdfLink.href = publication.links.pdf;
-      pdfLink.textContent = "PDF";
+      pdfLink.target = "_blank";
+      pdfLink.textContent = "Article";
       links.appendChild(pdfLink);
     }
 
     if (publication.links.code) {
       const codeLink = document.createElement("a");
       codeLink.href = publication.links.code;
+      codeLink.target = "_blank";
       codeLink.textContent = "Code & Data";
       links.appendChild(codeLink);
     }
